@@ -1,0 +1,38 @@
+/* *{
+    border: solid 1px;
+
+} */
+body {
+    max-width: 500px;
+    margin : 10vh auto;
+}
+
+button{
+    display: block;
+    margin: auto;
+    border: none;
+    background-color: green;
+    color: whitesmoke;
+    padding: 1em;
+}
+
+.clicked{
+    background-color: darkgreen;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 5vh;
+
+}
+
+.item{
+    text-align: center;
+    border: 1px solid rgb(29, 8, 8);
+    padding: 5px;
+}
+
+.item-label{
+    background-color: #669999;
+}
